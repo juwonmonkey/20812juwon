@@ -20,9 +20,7 @@ class SimpleNotepad:
         self.menu_bar.add_cascade(label="다른 이름으로 저장", command=self.save_as_file)
         self.menu_bar.add_separator()
         self.menu_bar.add_cascade(label="종료", command=self.root.quit)
-
-      
-        self.current_file = None
+		self.current_file = None
 
     def new_file(self):
         """새 파일 만들기"""
